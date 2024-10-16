@@ -21,7 +21,8 @@
     "prettier:fix": "prettier './**/*.js' './**/*.ts' './**/*.tsx' './**/*.css' './**/*.md' --write",
     "prepublishOnly": "echo \"\nPlease use ./scripts/publish instead\n\" && exit 1",
     "doctoc": "doctoc README.md",
-    "storybook": "start-storybook -p 6006 "
+    "storybook": "start-storybook -p 6006 ",
+    "prepare": "yarn run build"
   },
   "keywords": [
     "React",
